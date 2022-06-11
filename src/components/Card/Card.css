@@ -1,0 +1,130 @@
+/* .card {
+  width: 16rem;
+  height: 20.8rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  width: 16rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.25);
+  border: 0.7rem solid var(--color-dark);
+  box-shadow: 0px 1px 4px #666666;
+  border-radius: 2rem;
+  padding: 0rem 2.6rem 3.2rem 2.6rem;
+} */
+
+.card-container {
+  width: 30rem;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px -5px;
+  transition: 0.3s;
+  animation: ease-in;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 5px 10px 0px;
+}
+
+.card-header img {
+  overflow: hidden;
+  height: 25rem;
+}
+
+.card-content {
+  margin: 1.5rem 1.5rem 0rem 1.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+h4,
+p {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.card-title h4 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: flex;
+  margin: 1.5rem 1rem 1.5rem 1rem;
+}
+
+.wrapper {
+  display: flex;
+  top: -4rem;
+  position: relative;
+  justify-content: center;
+}
+
+.cardLayout > * {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/*Big-Desktop width < 1800px, 1rem = 12px*/
+@media (max-width: 112.5em) {
+  .cardLayout > * {
+    flex-wrap: nowrap;
+  }
+  .card-container {
+    width: 22rem;
+  }
+  .btn {
+    margin: 0 0 1rem 0;
+  }
+  .card-footer {
+    margin: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*Tablet-Landscape width < 1200px, 1rem = 9px*/
+@media (max-width: 75em) {
+  .cardLayout > * {
+    flex-wrap: nowrap;
+  }
+  .button {
+    font-size: 1rem;
+    height: 4;
+    width: 9rem;
+  }
+}
+/*Tablet-Port width < 900px, 1rem = 8px*/
+@media (max-width: 56.25em) {
+  .cardLayout > * {
+    flex-wrap: wrap;
+  }
+  .card-container {
+    width: 30rem;
+  }
+}
+/*Phone-Large width < 600px, 1rem = 6.5px*/
+@media (max-width: 37.5em) {
+}
+/*Phone-medium width < 480px, 1rem = 5px*/
+@media (max-width: 30em) {
+}
+/*Phone-Small width < 390px, 1rem = 4px*/
+@media (max-width: 24.375em) {
+}

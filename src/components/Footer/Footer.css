@@ -1,0 +1,56 @@
+.footer-container {
+  display: flex;
+  height: 30vh;
+  width: 100vw;
+  background: var(--color-secondary);
+  padding: 0 !important;
+  margin: 0 -3.5rem !important;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.footer-icons {
+  font-size: 3rem;
+}
+
+.footer-name {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Tablet-Landscape width < 1200px, 1rem = 9px*/
+@media (max-width: 75em) {
+}
+/*Tablet-Port width < 900px, 1rem = 8px*/
+@media (max-width: 56.25em) {
+  .footer-container {
+    height: 20vh;
+  }
+}
+/*Phone-Large width < 600px, 1rem = 6.5px*/
+@media (max-width: 37.5em) {
+  .footer-container {
+    height: 15vh;
+  }
+}
+/*Phone-medium width < 480px, 1rem = 5px*/
+@media (max-width: 30em) {
+  .footer-container {
+    height: 10vh;
+  }
+}
+/*Phone-Small width < 390px, 1rem = 4px*/
+@media (max-width: 24.375em) {
+  .footer-container {
+    height: 9vh;
+  }
+}

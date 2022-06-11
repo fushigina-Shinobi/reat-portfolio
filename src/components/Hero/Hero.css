@@ -1,0 +1,86 @@
+.hero {
+  display: flex;
+  height: 77vh;
+  margin: 9.6rem 5rem 0 5rem;
+  font-size: 1.6rem;
+}
+.hero-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 3.2rem;
+  margin-top: 4rem;
+}
+.hero-name {
+  display: flex;
+  flex-direction: column;
+}
+.hero-right {
+  flex: 1;
+  position: relative;
+}
+.hero-right img {
+  position: absolute;
+  z-index: 1;
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-name > :nth-child(1) {
+  font-weight: bold;
+  font-size: 4.8rem;
+}
+.hero-name > :nth-child(2) {
+  color: var(--color-dark);
+  font-weight: bold;
+  font-size: 3.6rem;
+}
+.hero-name > :nth-child(3) {
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+.hero-btn {
+  height: 3.2rem;
+  width: 9.6rem;
+}
+.hero-icons {
+  margin-top: 4.8rem;
+  display: flex;
+  gap: 2rem;
+  font-size: 4rem;
+}
+
+.hero-icons > *:hover {
+  cursor: pointer;
+}
+
+/*Tablet-Landscape width < 1200px, 1rem = 9px*/
+@media (max-width: 75em) {
+}
+/*Tablet-Port width < 900px, 1rem = 8px*/
+@media (max-width: 56.25em) {
+  .hero {
+    height: 60vh;
+  }
+}
+/*Phone-Large width < 600px, 1rem = 6.5px*/
+@media (max-width: 37.5em) {
+  .hero {
+    height: 40vh;
+  }
+}
+/*Phone-medium width < 480px, 1rem = 5px*/
+@media (max-width: 30em) {
+  .hero {
+    height: 35vh;
+  }
+}
+/*Phone-Small width < 390px, 1rem = 4px*/
+@media (max-width: 24.375em) {
+  .hero {
+    height: 30vh;
+  }
+}

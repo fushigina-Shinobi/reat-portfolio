@@ -1,0 +1,85 @@
+.nav-container {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5rem 0 5rem;
+}
+.nav-left {
+  flex: 0.5 1 0%;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+.nav-name {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.nav-right,
+.nav-left,
+.nav-name {
+  font-size: 1.6rem;
+}
+.nav-right {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  margin-right: 15rem;
+}
+
+.nav-list {
+  flex: 10;
+}
+.nav-list > ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 6.4rem;
+  justify-content: center;
+}
+
+.nav-list > ul > li:hover {
+  cursor: pointer;
+  color: var(--color-background);
+}
+.nav-btn {
+  flex: 1.5 1 0%;
+}
+
+.nav-line {
+  display: flex;
+  flex-direction: column;
+  right: 0rem;
+  top: 7rem;
+  position: absolute;
+  width: 100vw;
+}
+
+/*Tablet-Landscape width < 1200px, 1rem = 9px*/
+@media (max-width: 75em) {
+}
+/*Tablet-Port width < 900px, 1rem = 8px*/
+@media (max-width: 56.25em) {
+  .nav-container {
+    height: 8vh;
+  }
+}
+/*Phone-Large width < 600px, 1rem = 6.5px*/
+@media (max-width: 37.5em) {
+  .nav-container {
+    height: 6vh;
+  }
+}
+/*Phone-medium width < 480px, 1rem = 5px*/
+@media (max-width: 30em) {
+  .nav-container {
+    height: 4vh;
+  }
+}
+/*Phone-Small width < 390px, 1rem = 4px*/
+@media (max-width: 24.375em) {
+  .nav-container {
+    height: 3vh;
+  }
+}

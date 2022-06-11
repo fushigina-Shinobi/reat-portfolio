@@ -1,0 +1,80 @@
+.skills-container {
+  display: flex;
+  height: 90vh;
+  margin: 14rem 5rem 0rem 5rem;
+}
+.skills-left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1;
+  gap: 2rem;
+}
+.skills-left > :nth-child(1) {
+  font-weight: bold;
+  font-size: 4.8rem;
+}
+.skills-left > :nth-child(2) {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.skills-left > :nth-child(3) {
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+.skills-right {
+  display: flex;
+  position: relative;
+  flex: 1;
+  top: 7rem;
+  /* margin: 0px; */
+}
+.skills-bar > * {
+  font-size: 10rem;
+}
+.skills-bar {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  position: absolute;
+  left: 10rem;
+  transform: scale(1.5);
+}
+
+.progress-1,
+.progress-2,
+.progress-3,
+.progress-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/*Tablet-Landscape width < 1200px, 1rem = 9px*/
+@media (max-width: 75em) {
+}
+/*Tablet-Port width < 900px, 1rem = 8px*/
+@media (max-width: 56.25em) {
+  .skills-container {
+    height: 77vh;
+  }
+}
+/*Phone-Large width < 600px, 1rem = 6.5px*/
+@media (max-width: 37.5em) {
+  .skills-container {
+    height: 60vh;
+  }
+}
+/*Phone-medium width < 480px, 1rem = 5px*/
+@media (max-width: 30em) {
+  .skills-container {
+    height: 45vh;
+  }
+}
+/*Phone-Small width < 390px, 1rem = 4px*/
+@media (max-width: 24.375em) {
+  .skills-container {
+    height: 40vh;
+  }
+}

@@ -1,13 +1,136 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Satisfy&display=swap");
+
+:root {
+  --color-primary: #ffffff;
+  --color-secondary: #92b4ec;
+  --color-tertiary: #ffe69a;
+  --color-dark: #ffd24c;
+  --color-button-dark: #000000;
+  --font-family-primary: "Satisfy", cursive;
+  --font-family-secondary: "Lato", sans-serif;
+  --color-background: rgb(66, 194, 255);
+  --text-color-primary: black;
+  /* --button-background: #4b709e; */
+  /* --background-color: #e2efff; */
+}
+
+body {
+  font-family: "Raleway", sans-serif, "Lato", sans-serif, "Satisfy", cursive;
+  /* font-weight: 400;
+  line-height: 1.6;
+  min-height: 100vh; */
+}
+
+.App {
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 3.4rem;
+  border: none;
+  color: var(--color-primary);
+  font-size: 1.6rem;
+  background: var(--color-secondary);
+  box-shadow: 0px 1px 4px #666666;
+
+  /* background-image: linear-gradient(to bottom, #3498db, #2980b9); */
+  background-image: linear-gradient(to bottom, #92b4ec, #2980b9);
+  text-shadow: 1px 1px 3px #666666;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: var(--color-primary);
+  /* border: 1px solid var(--color-tertiary); */
+  box-shadow: 0px 1px 10px #666666;
+
+  /* background-image: linear-gradient(to bottom, #3cb0fd, #3498db); */
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, #04bbcc, #3d6eff);
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 3rem;
+  color: var(--color-primary);
+  background: var(--color-secondary);
+  text-shadow: 1px 1px 5px #666666;
+  border: none;
+  font-size: 1.3rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  box-shadow: 0px 1px 5px #6666665b;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: var(--color-primary);
+  box-shadow: 0px 1px 10px #6666665b;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, #04bbcc, #3d6eff);
+}
+
+/*Big-Desktop width < 1800px, 1rem = 112px*/
+@media (max-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+/*Tablet-Landscape width < 1200px, 1rem = 9px*/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .button {
+    font-size: 1.11rem;
+  }
+}
+/*Tablet-Port width < 900px, 1rem = 8px*/
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+/*Phone-Large width < 600px, 1rem = 6.5px*/
+@media (max-width: 37.5em) {
+  html {
+    font-size: 40.625%;
+  }
+}
+/*Phone-medium width < 480px, 1rem = 5px*/
+@media (max-width: 30em) {
+  html {
+    font-size: 31.25%;
+  }
+}
+/*Phone-Small width < 390px, 1rem = 4px*/
+@media (max-width: 24.375em) {
+  html {
+    font-size: 25%;
+  }
 }
