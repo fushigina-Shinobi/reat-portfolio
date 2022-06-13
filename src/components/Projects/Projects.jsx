@@ -4,7 +4,7 @@ import CardList from "../Card/CardList";
 
 const Projects = () => {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <section className="projects-title">
         <span>My Projects</span>
       </section>

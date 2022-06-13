@@ -4,7 +4,7 @@ import ContactImg from "./ContactImg.svg";
 
 const ContactForm = () => {
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       <div className="form-left">
         <section className="main-hero">
           <img src={ContactImg} alt="Contact" />

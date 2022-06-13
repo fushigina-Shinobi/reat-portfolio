@@ -42,7 +42,9 @@ body {
   overflow: hidden;
 }
 
-ul {
+ul,
+Link,
+a {
   text-decoration: none;
   list-style-type: none;
 }

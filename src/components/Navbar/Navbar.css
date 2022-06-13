@@ -38,8 +38,10 @@
   margin-right: 6.4rem;
   justify-content: center;
 }
-
-.nav-list > ul > li:hover {
+.nav-list > ul > li > a {
+  color: var(--text-color-primary);
+}
+.nav-list > ul > li > a:hover {
   cursor: pointer;
   color: var(--color-background);
 }

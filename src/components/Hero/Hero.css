@@ -52,9 +52,13 @@
   gap: 2rem;
   font-size: 4rem;
 }
+.hero-icons a {
+  color: var(--text-color-primary);
+}
 
 .hero-icons > *:hover {
   cursor: pointer;
+  color: var(--color-secondary);
 }
 
 /*Tablet-Landscape width < 1200px, 1rem = 9px*/

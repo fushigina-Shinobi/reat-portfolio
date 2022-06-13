@@ -7,17 +7,23 @@ const Footer = () => {
     <footer className="footer-container">
       <section className="footer-left">
         <section className="footer-icons">
-          <FaLinkedin style={{ color: "#0072b1" }} />
-          <FaGithub style={{ color: "#000000" }} />
-          <FaInstagram
-            style={{
-              color: "#ffffff",
-              backgroundColor: "#f09433",
-              background:
-                "linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)",
-              borderRadius: "0.8rem",
-            }}
-          />
+          <a href="https://www.linkedin.com/in/kishore-mongar/" target="_blank">
+            <FaLinkedin style={{ color: "#0072b1" }} />
+          </a>
+          <a href="https://github.com/fushigina-Shinobi" target="_blank">
+            <FaGithub style={{ color: "#000000" }} />
+          </a>
+          <a href="https://www.instagram.com/thequirkybrat/" target="_blank">
+            <FaInstagram
+              style={{
+                color: "#ffffff",
+                backgroundColor: "#f09433",
+                background:
+                  "linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)",
+                borderRadius: "0.8rem",
+              }}
+            />
+          </a>
         </section>
         <section className="footer-right">
           <div>

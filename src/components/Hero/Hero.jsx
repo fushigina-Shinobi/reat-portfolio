@@ -1,11 +1,11 @@
 import React from "react";
 import "./Hero.css";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-// import HeroImg "./Hero.png";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="heroHome">
       <section className="hero-left">
         <div className="hero-name">
           <span>Moshi Moshi</span>
@@ -21,9 +21,15 @@ const Hero = () => {
         </div>
         <button className="button hero-btn">Resume</button>
         <section className="hero-icons">
-          <FaLinkedin />
-          <FaGithub />
-          <FaInstagram />
+          <a href="https://www.linkedin.com/in/kishore-mongar/" target="_blank">
+            <FaLinkedin />
+          </a>
+          <a href="https://github.com/fushigina-Shinobi" target="_blank">
+            <FaGithub />
+          </a>
+          <a href="https://www.instagram.com/thequirkybrat/" target="_blank">
+            <FaInstagram />
+          </a>
         </section>
       </section>
       <section className="hero-right">

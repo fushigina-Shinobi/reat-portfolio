@@ -6,7 +6,7 @@ import ProgressBar from "./ProgressBar";
 
 const Skills = () => {
   return (
-    <div className="skills-container">
+    <div className="skills-container" id="skills">
       <section className="skills-left">
         <span>My Skill-Set</span>
         <span>Full-Time Learner</span>
