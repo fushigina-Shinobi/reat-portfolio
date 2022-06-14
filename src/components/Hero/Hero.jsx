@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-import { HashLink as Link } from "react-router-hash-link";
+import Kishore from "./Kishore.pdf";
 
 const Hero = () => {
   return (
@@ -19,7 +19,11 @@ const Hero = () => {
             explicabo veniam.
           </span>
         </div>
-        <button className="button hero-btn">Resume</button>
+        <button className="button hero-btn">
+          <a href={Kishore} download="Kishore CV">
+            Resume
+          </a>
+        </button>
         <section className="hero-icons">
           <a href="https://www.linkedin.com/in/kishore-mongar/" target="_blank">
             <FaLinkedin />

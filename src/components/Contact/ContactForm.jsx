@@ -1,8 +1,31 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import "./ContactForm.css";
 import ContactImg from "./ContactImg.svg";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
+  const form = useRef();
+  const [sent, setSent] = useState(false);
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "luffypirate",
+        "monkeydluffy",
+        form.current,
+        "l6nyxn0E2Xik-P-Rh"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setSent(true);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className="contact-container" id="contact">
       <div className="form-left">
@@ -15,7 +38,7 @@ const ContactForm = () => {
           <span>Contact Me</span>
         </div>
 
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="userName"
@@ -30,6 +53,9 @@ const ContactForm = () => {
           />
           <textarea name="message" className="user" placeholder="Message" />
           <input type="submit" value="Send" className="submitBtn" />
+          <span style={{ fontWeight: "bold", fontSize: "1.5rem" }}>
+            {sent && "Message Sent!"}
+          </span>
         </form>
       </section>
     </div>

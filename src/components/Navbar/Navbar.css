@@ -66,11 +66,17 @@
   .nav-container {
     height: 8vh;
   }
+  .nav-btn {
+    display: none;
+  }
 }
 /*Phone-Large width < 600px, 1rem = 6.5px*/
 @media (max-width: 37.5em) {
   .nav-container {
     height: 6vh;
+  }
+  .nav-btn {
+    display: none;
   }
 }
 /*Phone-medium width < 480px, 1rem = 5px*/
@@ -78,10 +84,16 @@
   .nav-container {
     height: 4vh;
   }
+  .nav-btn {
+    display: none;
+  }
 }
 /*Phone-Small width < 390px, 1rem = 4px*/
 @media (max-width: 24.375em) {
   .nav-container {
     height: 3vh;
+  }
+  .nav-btn {
+    display: none;
   }
 }

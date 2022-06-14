@@ -51,6 +51,9 @@
   flex-direction: row;
   align-items: center;
 }
+.progress-4 {
+  gap: 0.4rem;
+}
 /*Tablet-Landscape width < 1200px, 1rem = 9px*/
 @media (max-width: 75em) {
 }
