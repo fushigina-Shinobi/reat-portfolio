@@ -1,11 +1,11 @@
 import React from "react";
 import "./Card.css";
 
-function Card({ imageUrl, title, info, button, btn }) {
+function Card({ imageUrl, title, info, sourceLink, visitLink }) {
   return (
     <div className="card-container">
       <div className="card-header">
-        <img src={imageUrl} alt="" />
+        <img src={imageUrl} alt={title} />
       </div>
       <div className="card-content">
         <div className="card-title">
@@ -16,8 +16,16 @@ function Card({ imageUrl, title, info, button, btn }) {
         </div>
       </div>
       <div className="card-footer">
-        <button className="btn">{button}</button>
-        <button className="btn">{btn}</button>
+        <a href={visitLink} target="_blank">
+          <button className="btn" type="button">
+            Visit Link
+          </button>
+        </a>
+        <a href={sourceLink} target="_blank">
+          <button className="btn" type="button">
+            Source Link
+          </button>
+        </a>
       </div>
     </div>
   );

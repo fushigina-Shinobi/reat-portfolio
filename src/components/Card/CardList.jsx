@@ -15,8 +15,8 @@ const CardList = () => {
                 imageUrl={CardData.imageUrl}
                 title={CardData.title}
                 info={CardData.info}
-                button={CardData.button}
-                btn={CardData.btn}
+                visitLink={CardData.visitLink}
+                sourceLink={CardData.sourceLink}
               />
             );
           })}
