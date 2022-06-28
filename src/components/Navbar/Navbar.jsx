@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
+  const [stickyNav, setStickyNav] = useState("");
+  useEffect(() => {
+    window.addEventListener("scroll", stickNavbar);
+    return () => window.removeEventListener("scroll", stickNavbar);
+  }, []);
+
+  const stickNavbar = () => {
+    if (window !== undefined) {
+      let windowHeight = window.scrollY;
+      windowHeight > 0 ? setStickyNav("sticky-nav") : setStickyNav("");
+    }
+  };
   return (
     <Router>
-      <div className="nav-container">
+      <div className={`nav-container ${stickyNav}`}>
         <div className="nav-left">
           <div className="nav-name">Kishore Mongar</div>
         </div>
@@ -63,7 +75,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <button className="button nav-btn">Sign Up</button>
+          <button className="button nav-btn">Moshi</button>
         </div>
         <div className="nav-line">
           <hr />

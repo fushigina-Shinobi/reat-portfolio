@@ -53,13 +53,28 @@
   display: flex;
   flex-direction: column;
   right: 0rem;
-  top: 7rem;
+  top: 6.25rem;
   position: absolute;
-  width: 100vw;
+  width: 100%;
+  left: -5rem;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  backdrop-filter: blur(5px);
+  z-index: 3;
 }
 
 /*Tablet-Landscape width < 1200px, 1rem = 9px*/
 @media (max-width: 75em) {
+  .nav-btn {
+    height: 1.5rem;
+  }
 }
 /*Tablet-Port width < 900px, 1rem = 8px*/
 @media (max-width: 56.25em) {

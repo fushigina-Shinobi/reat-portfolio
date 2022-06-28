@@ -21,10 +21,10 @@ const CardData = [
     id: 3,
     imageUrl:
       "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1653818594/Trail%20Addek%20Slides/PicsArt_05-06-03.35.11_coa0vj.jpg",
-    title: "Tours & Travel",
+    title: "Trail Addek",
     info: "Coming Soon!!! Lorem ipsum dolor sit amet consectetur adipisicing elit Ea alias et",
     visitLink: "",
-    sourceLink: "",
+    sourceLink: "https://github.com/fushigina-Shinobi/trail-addek",
   },
   {
     id: 4,
