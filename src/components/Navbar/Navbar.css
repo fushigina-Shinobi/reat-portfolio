@@ -3,6 +3,12 @@
   display: flex;
   justify-content: space-between;
   margin: 0 5rem 0 5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  z-index: 3;
 }
 .nav-left {
   flex: 0.5 1 0%;
@@ -19,6 +25,7 @@
 .nav-left,
 .nav-name {
   font-size: 1.6rem;
+  margin-left: 1.8rem;
 }
 .nav-right {
   display: flex;
@@ -35,7 +42,7 @@
 .nav-list > ul {
   display: flex;
   gap: 2rem;
-  margin-right: 6.4rem;
+  margin-right: 20rem;
   justify-content: center;
 }
 .nav-list > ul > li > a {
@@ -59,7 +66,7 @@
   left: -5rem;
 }
 
-.sticky-nav {
+/* .sticky-nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -68,12 +75,15 @@
   display: flex;
   backdrop-filter: blur(5px);
   z-index: 3;
-}
+} */
 
 /*Tablet-Landscape width < 1200px, 1rem = 9px*/
 @media (max-width: 75em) {
   .nav-btn {
     height: 1.5rem;
+  }
+  .nav-container {
+    height: 9vh;
   }
 }
 /*Tablet-Port width < 900px, 1rem = 8px*/
