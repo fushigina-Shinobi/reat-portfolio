@@ -20,19 +20,19 @@ const Skills = () => {
         <div className="skills-bar">
           <div className="progress-1">
             <TbBrandHtml5 className="circle" />
-            <ProgressBar bgcolor="orange" progress="9rem" height={10} />
+            <ProgressBar bgcolor="orange" progress="11rem" height={10} />
           </div>
           <div className="progress-2">
             <TbBrandCss3 className="circle" />
-            <ProgressBar bgcolor="red" progress="9rem" height={10} />
+            <ProgressBar bgcolor="red" progress="11rem" height={10} />
           </div>
           <div className="progress-3">
             <TbBrandJavascript />
-            <ProgressBar bgcolor="#99ff66" progress="8rem" height={10} />
+            <ProgressBar bgcolor="#99ff66" progress="10rem" height={10} />
           </div>
           <div className="progress-4">
             <FaReact />
-            <ProgressBar bgcolor="#ff00ff" progress="7.5rem" height={10} />
+            <ProgressBar bgcolor="#ff00ff" progress="10rem" height={10} />
           </div>
         </div>
       </section>

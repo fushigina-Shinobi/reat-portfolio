@@ -1,7 +1,7 @@
 .projects-container {
   display: flex;
-  height: 100vh;
-  margin-top: 15rem;
+  /* height: 100vh; */
+  margin-top: 10rem;
   flex-direction: column;
 }
 .projects-title {
@@ -48,19 +48,19 @@
 }
 /*Phone-Large width < 600px, 1rem = 6.5px*/
 @media (max-width: 37.5em) {
-  .projects-container {
+  /* .projects-container {
     height: 90vh;
-  }
+  } */
 }
 /*Phone-medium width < 480px, 1rem = 5px*/
 @media (max-width: 30em) {
-  .projects-container {
+  /* .projects-container {
     height: 80vh;
-  }
+  } */
 }
 /*Phone-Small width < 390px, 1rem = 4px*/
 @media (max-width: 24.375em) {
-  .projects-container {
+  /* .projects-container {
     height: 70vh;
-  }
+  } */
 }

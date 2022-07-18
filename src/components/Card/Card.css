@@ -70,9 +70,9 @@ p {
 
 /*Big-Desktop width < 1800px, 1rem = 12px*/
 @media (max-width: 112.5em) {
-  .cardLayout > * {
+  /* .cardLayout > * {
     flex-wrap: nowrap;
-  }
+  } */
   .card-container {
     width: 22rem;
   }
@@ -88,9 +88,9 @@ p {
 
 /*Tablet-Landscape width < 1200px, 1rem = 9px*/
 @media (max-width: 75em) {
-  .cardLayout > * {
+  /* .cardLayout > * {
     flex-wrap: nowrap;
-  }
+  } */
   .button {
     font-size: 1rem;
     width: 9rem;
