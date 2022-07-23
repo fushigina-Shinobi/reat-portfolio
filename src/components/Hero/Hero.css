@@ -71,6 +71,7 @@
 @media (max-width: 56.25em) {
   .hero {
     height: 60vh;
+    margin-top: 15rem;
   }
 }
 /*Phone-Large width < 600px, 1rem = 6.5px*/

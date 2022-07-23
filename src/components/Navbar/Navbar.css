@@ -57,9 +57,9 @@
 }
 
 .nav-line {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  right: 0rem;
+  right: 0rem; */
   top: 6.25rem;
   position: absolute;
   width: 100%;
@@ -89,10 +89,21 @@
 /*Tablet-Port width < 900px, 1rem = 8px*/
 @media (max-width: 56.25em) {
   .nav-container {
-    height: 8vh;
+    height: 10vh;
   }
   .nav-btn {
     display: none;
+  }
+  .nav-list > ul {
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+  }
+  .nav-right {
+    margin-right: 0;
+  }
+  .nav-line {
+    top: 8rem;
   }
 }
 /*Phone-Large width < 600px, 1rem = 6.5px*/
