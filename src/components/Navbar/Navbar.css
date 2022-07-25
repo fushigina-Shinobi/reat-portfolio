@@ -87,7 +87,7 @@
   .nav-list > ul {
     display: flex;
     gap: 2rem;
-    justify-content: end;
+    justify-content: flex-end;
   }
   .nav-right {
     margin-right: 0;
