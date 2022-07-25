@@ -41,7 +41,7 @@ const CardData = [
     imageUrl: "https://picsum.photos/401/300",
     title: "Anime Freak",
     info: "Search information regarding your favourite anime and it's various aspects of data that you're curious about",
-    visitLink: "https://monga-kishore.netlify.app/",
+    visitLink: "https://animefreak.netlify.app/",
     sourceLink: "https://github.com/fushigina-Shinobi/anime-freak",
   },
   {

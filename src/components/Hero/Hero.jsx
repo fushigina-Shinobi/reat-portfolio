@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-import Kishore from "./Kishore.pdf";
+import KishoreCV from "./KishoreCV.pdf";
 
 const Hero = () => {
   return (
@@ -20,7 +20,7 @@ const Hero = () => {
           </span>
         </div>
         <button className="button hero-btn">
-          <a href={Kishore} download="Kishore CV">
+          <a href={KishoreCV} download="Kishore CV">
             Resume
           </a>
         </button>

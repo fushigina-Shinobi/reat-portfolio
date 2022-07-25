@@ -77,9 +77,6 @@ const Navbar = () => {
           </div>
           <button className="button nav-btn">Moshi</button>
         </div>
-        <div className="nav-line">
-          <hr />
-        </div>
       </div>
     </Router>
   );
