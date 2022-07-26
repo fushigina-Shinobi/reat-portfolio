@@ -22,7 +22,7 @@ const CardData = [
     imageUrl:
       "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1658506543/laptop_jmrtge.jpg",
     title: "Portfolio",
-    info: "Simple React Js portfolio with the help of FC, props & hooks",
+    info: "Simple React Js portfolio with the help of FC, props & hooks.",
     visitLink: "https://mongarkishore.netlify.app/",
     sourceLink: "https://github.com/fushigina-Shinobi/react-portfolio",
   },
@@ -31,22 +31,24 @@ const CardData = [
     imageUrl:
       "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1654791402/Trail%20Addek%20Slides/PSX_20191225_205212_ssxzdz.jpg",
     title: "Trail Addek",
-    info: "Are you looking for offbeat destination ? We provide you with the best offbeat trek destination.",
+    info: "Are you looking for offbeat destination ? the best offbeat trek destination id here.",
     visitLink: "https://trailaddek.netlify.app",
     sourceLink: "https://github.com/fushigina-Shinobi/trail-addek",
   },
 
   {
     id: 5,
-    imageUrl: "https://picsum.photos/401/300",
+    imageUrl:
+      "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1658755407/animefreak_ejmnar.png",
     title: "Anime Freak",
-    info: "Search information regarding your favourite anime and it's various aspects of data that you're curious about",
+    info: "Search information regarding your favourite anime and it's various aspects of data.",
     visitLink: "https://animefreakk.netlify.app/",
     sourceLink: "https://github.com/fushigina-Shinobi/anime-freak",
   },
   {
     id: 6,
-    imageUrl: "https://picsum.photos/400/299",
+    imageUrl:
+      "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1658755270/PopcornCinema_h40fff.jpg",
     title: "Popcorn Movie",
     info: "Coming Soon!!! Lorem ipsum dolor sit amet consectetur adipisicing elit Ea alias et",
     visitLink: "https://popcorncinema.netlify.app",
@@ -54,15 +56,17 @@ const CardData = [
   },
   {
     id: 7,
-    imageUrl: "https://picsum.photos/400/302",
+    imageUrl:
+      "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1658755621/ecommerce_fff0nb.jpg",
     title: "E-Commerce",
     info: "Coming Soon!!! Lorem ipsum dolor sit amet consectetur adipisicing elit Ea alias et",
     visitLink: "",
-    sourceLink: "https://task-to-settle.netlify.app/",
+    sourceLink: "",
   },
   {
     id: 8,
-    imageUrl: "https://picsum.photos/400/301",
+    imageUrl:
+      "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1658755892/quiz_r5dh82.jpg",
     title: "Quiz App",
     info: "Coming Soon!!! Lorem ipsum dolor sit amet consectetur adipisicing elit Ea alias et",
     visitLink: "",

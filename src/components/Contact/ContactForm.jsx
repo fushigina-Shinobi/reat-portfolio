@@ -29,15 +29,15 @@ const ContactForm = () => {
   return (
     <div className="contact-container" id="contact">
       <div className="form-left">
-        <section className="main-hero">
+        <article className="main-hero">
           <img src={ContactImg} alt="Contact" />
-        </section>
+        </article>
       </div>
       <section className="form-right">
         <div className="contact-header">
-          <span>Contact Me</span>
+          <span>Contact</span>
+          <span> Me</span>
         </div>
-
         <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"

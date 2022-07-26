@@ -11,9 +11,10 @@ const Skills = () => {
         <span>My Skill-Set</span>
         <span>Full-Time Learner</span>
         <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea alias et
-          architecto sint! Modi eos quae voluptate ut perferendis. Rerum rem
-          eaque reiciendis officia nulla deleniti dolorem provident officiis
+          I am learning frontend technologies. In this endeavor, I am working on
+          these technologies HTML5, CSS3, JAVASCRIPT, ReactJs to build projects.
+          I am keen to learn everyday. You can check my projects or you can
+          check my Github link in the bio.
         </span>
       </section>
       <section className="skills-right">

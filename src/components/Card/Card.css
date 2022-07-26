@@ -20,11 +20,13 @@
 .card-header {
   height: 100%;
   width: 100%;
+  justify-content: center;
+  display: flex;
 }
 
 .card-header img {
   overflow: hidden;
-  height: 25rem;
+  object-fit: cover;
 }
 
 .card-content {

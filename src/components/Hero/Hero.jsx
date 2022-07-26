@@ -9,14 +9,11 @@ const Hero = () => {
       <section className="hero-left">
         <div className="hero-name">
           <span>Moshi Moshi</span>
-          <span>Monkey D Luffy :)</span>
+          <span>Kishore Mongar :)</span>
           <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            accusamus et quo repellendus maiores, doloremque doloribus, sint
-            veritatis, molestiae recusandae aperiam amet. Explicabo deserunt,
-            aperiam libero nulla adipisci quia dolorem. Enim repudiandae,
-            perspiciatis doloribus a eligendi rerum nesciunt ea maiores nulla
-            explicabo veniam.
+            I am Kishore Mongar and currently building projects based on React
+            JS. Techs that I use to create the projects are HTML5, CSS3,
+            JAVASCRIPT & REACT JS
           </span>
         </div>
         <button className="button hero-btn">
@@ -25,13 +22,25 @@ const Hero = () => {
           </a>
         </button>
         <section className="hero-icons">
-          <a href="https://www.linkedin.com/in/kishore-mongar/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/kishore-mongar/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaLinkedin />
           </a>
-          <a href="https://github.com/fushigina-Shinobi" target="_blank">
+          <a
+            href="https://github.com/fushigina-Shinobi"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaGithub />
           </a>
-          <a href="https://www.instagram.com/thequirkybrat/" target="_blank">
+          <a
+            href="https://www.instagram.com/thequirkybrat/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaInstagram />
           </a>
         </section>

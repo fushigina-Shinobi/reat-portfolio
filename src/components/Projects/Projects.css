@@ -45,6 +45,10 @@
 }
 /*Tablet-Port width < 900px, 1rem = 8px*/
 @media (max-width: 56.25em) {
+  .projects-container {
+    gap: 2rem;
+    margin-top: 0;
+  }
 }
 /*Phone-Large width < 600px, 1rem = 6.5px*/
 @media (max-width: 37.5em) {
