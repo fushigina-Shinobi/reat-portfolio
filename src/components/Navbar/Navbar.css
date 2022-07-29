@@ -29,20 +29,20 @@
 }
 .nav-right {
   display: flex;
-  flex: 1;
+  flex: 0.4;
   justify-content: center;
   align-items: center;
   font-weight: 400;
-  margin-right: 9rem;
+  /* margin-right: 9rem; */
 }
 
-.nav-list {
+/* .nav-list {
   flex: 10;
-}
+} */
 .nav-list > ul {
   display: flex;
   gap: 2rem;
-  margin-right: 20rem;
+  /* margin-right: 20rem; */
   justify-content: center;
 }
 .nav-list > ul > li > a {
@@ -75,11 +75,20 @@
   .nav-container {
     height: 9vh;
   }
+  .nav-name {
+    font-size: 2rem;
+  }
+  .nav-list > ul {
+    font-size: 2rem;
+  }
 }
 /*Tablet-Port width < 900px, 1rem = 8px*/
 @media (max-width: 56.25em) {
   .nav-container {
     height: 10vh;
+  }
+  .nav-name {
+    font-size: 2rem;
   }
   .nav-btn {
     display: none;
@@ -88,6 +97,7 @@
     display: flex;
     gap: 2rem;
     justify-content: flex-end;
+    font-size: 2rem;
   }
   .nav-right {
     margin-right: 0;
@@ -96,7 +106,7 @@
 /*Phone-Large width < 600px, 1rem = 6.5px*/
 @media (max-width: 37.5em) {
   .nav-container {
-    height: 6vh;
+    height: 8vh;
   }
   .nav-btn {
     display: none;
@@ -104,18 +114,21 @@
 }
 /*Phone-medium width < 480px, 1rem = 5px*/
 @media (max-width: 30em) {
-  .nav-container {
-    height: 4vh;
-  }
   .nav-btn {
     display: none;
+  }
+  .nav-list > ul {
+    font-size: 2.5rem;
+  }
+  .nav-name {
+    font-size: 2.5rem;
   }
 }
 /*Phone-Small width < 390px, 1rem = 4px*/
 @media (max-width: 24.375em) {
-  .nav-container {
+  /* .nav-container {
     height: 3vh;
-  }
+  } */
   .nav-btn {
     display: none;
   }

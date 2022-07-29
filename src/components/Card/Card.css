@@ -99,8 +99,8 @@ p {
     flex-wrap: nowrap;
   } */
   .button {
-    font-size: 1rem;
-    width: 9rem;
+    width: 12rem;
+    height: 4rem;
   }
 }
 /*Tablet-Port width < 900px, 1rem = 8px*/

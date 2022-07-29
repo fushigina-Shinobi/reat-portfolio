@@ -73,12 +73,21 @@
   .skills-right {
     justify-content: center;
     align-items: stretch;
-    position: static;
+    /* position: static; */
   }
   .skills-bar {
     align-items: center;
     left: 0;
     position: static;
+  }
+  .skills-left > :nth-child(1) {
+    font-size: 5rem;
+  }
+  .skills-left > :nth-child(2) {
+    font-size: 3.5rem;
+  }
+  .skills-left > :nth-child(3) {
+    font-size: 2.5rem;
   }
 }
 /*Phone-Large width < 600px, 1rem = 6.5px*/

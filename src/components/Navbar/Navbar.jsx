@@ -75,7 +75,6 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <button className="button nav-btn">Moshi</button>
         </div>
       </div>
     </Router>
