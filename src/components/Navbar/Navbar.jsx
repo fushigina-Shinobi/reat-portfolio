@@ -31,7 +31,7 @@ const Navbar = () => {
                   to="heroHome"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-200}
                   duration={1}
                 >
                   Home
@@ -62,12 +62,26 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
+                <a
+                  // activeClass="active"
+                  href="https://kishoremongar.hashnode.dev/"
+                  target="_blank"
+                  rel="noreferrer"
+                  // spy={true}
+                  // smooth={true}
+                  // offset={-100}
+                  // duration={1}
+                >
+                  Blogs
+                </a>
+              </li>
+              <li>
                 <Link
                   activeClass="active"
                   to="contact"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-130}
                   duration={1}
                 >
                   Contact
