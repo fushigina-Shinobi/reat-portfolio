@@ -50,7 +50,7 @@ const CardData = [
     imageUrl:
       "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1658755270/PopcornCinema_h40fff.jpg",
     title: "Popcorn Movie",
-    info: "Coming Soon!!! Lorem ipsum dolor sit amet consectetur adipisicing elit Ea alias et",
+    info: "Search your favourite cinema and learn interesting info about them.",
     visitLink: "https://popcorncinema.netlify.app",
     sourceLink: "https://github.com/fushigina-Shinobi/popcorncinema",
   },
