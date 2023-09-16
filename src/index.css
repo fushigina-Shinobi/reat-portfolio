@@ -14,7 +14,7 @@ html {
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Satisfy&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
 
 :root {
   --color-primary: #ffffff;
@@ -22,8 +22,8 @@ html {
   --color-tertiary: #ffe69a;
   --color-dark: #ffd24c;
   --color-button-dark: #000000;
-  --font-family-primary: "Satisfy", cursive;
-  --font-family-secondary: "Lato", sans-serif;
+  --font-family-primary: 'Satisfy', cursive;
+  --font-family-secondary: 'Lato', sans-serif;
   --color-background: rgb(66, 194, 255);
   --text-color-primary: black;
   /* --button-background: #4b709e; */
@@ -31,7 +31,7 @@ html {
 }
 
 body {
-  font-family: "Raleway", sans-serif, "Lato", sans-serif, "Satisfy", cursive;
+  font-family: 'Raleway', sans-serif, 'Lato', sans-serif, 'Satisfy', cursive;
   /* font-weight: 400;
   line-height: 1.6;
   min-height: 100vh; */
@@ -97,6 +97,12 @@ a {
   background-image: linear-gradient(to bottom, #04bbcc, #3d6eff);
 }
 
+.contents {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
 /*Big-Desktop width < 1800px, 1rem = 112px*/
 @media (max-width: 112.5em) {
   html {
@@ -116,6 +122,9 @@ a {
 @media (max-width: 56.25em) {
   html {
     font-size: 50%;
+  }
+  .contents:nth-child(2) {
+    row-gap: 25rem;
   }
 }
 /*Phone-Large width < 600px, 1rem = 6.5px*/

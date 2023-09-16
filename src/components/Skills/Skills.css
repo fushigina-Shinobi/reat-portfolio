@@ -90,11 +90,16 @@
     font-size: 2.5rem;
   }
 }
-/*Phone-Large width < 600px, 1rem = 6.5px*/
-@media (max-width: 37.5em) {
-  .skills-container {
+/*Phone-Large width < 900px, 1rem = 8px*/
+@media (max-width: 56.25em) {
+  /* .skills-container {
     margin: 0 5rem;
     height: 77vh;
+  } */
+}
+@media (max-width: 37.5em) {
+  .skills-bar {
+    height: fit-content;
   }
 }
 /*Phone-medium width < 480px, 1rem = 5px*/
