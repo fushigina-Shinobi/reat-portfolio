@@ -36,8 +36,7 @@ const ContactForm = () => {
       </div>
       <section className='form-right'>
         <div className='contact-header'>
-          <span>Contact</span>
-          <span> Me</span>
+          <span>Contact Me</span>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input
