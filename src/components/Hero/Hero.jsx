@@ -36,7 +36,7 @@ const Hero = () => {
               <FaLinkedin />
             </a>
             <a
-              href='https://github.com/fushigina-Shinobi'
+              href='https://github.com/kishoremongar'
               target='_blank'
               rel='noreferrer'
             >

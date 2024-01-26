@@ -11,9 +11,10 @@ const Skills = () => {
         <span>My Skill-Set</span>
         <span>Full-Time Learner</span>
         <span style={{ lineHeight: '2.5rem' }}>
-          I'm a Front-End Developer with a comprehensive skill set that includes
-          React.js, Next.js, Typescript, JavaScript, HTML5, CSS3, Tailwind CSS,
-          Mantine UI, Bootstrap 5, JIRA, and GIT. I thrive in the dynamic
+          A full-stack developer with a comprehensive skill set that includes
+          primarily React.js, Next.js, Typescript, JavaScript, HTML5, CSS3,
+          Tailwind CSS, Mantine UI, Bootstrap 5, JIRA, and GIT and secondarily
+          Node.js, Express.js, MongoDB, Mongoose, JEST. I thrive in the dynamic
           landscape of web development, readily adapting to emerging
           technologies and techniques.
         </span>
